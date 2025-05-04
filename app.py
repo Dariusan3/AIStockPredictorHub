@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
 # Load your pre-trained model
-model = load_model('/Users/osadici.darius/Documents/ai-stock-predictor/AIStockPredictorHub/Stock Predictions Model.keras')
+model = load_model('models/stocks_model.keras')
 
 # Streamlit UI
 st.header('📈 Stock Market Predictor')
